@@ -1,0 +1,35 @@
+.navbar
+{
+   display: block;
+    list-style: none;
+    float: right;
+}
+.navbar__item{
+    padding: 5px;
+    display: block;
+    font-size: 1.3rem ;
+    float: right;
+}
+.navbar__item a {
+    color : var(--white-color);
+    text-decoration: none;
+}
+#header {
+  
+    background-color: var(--slider-color);
+    top : 0;
+    position: fixed;
+    z-index: 2;
+
+}
+.top-logo{
+    padding: none;
+    width: 150px;
+    height: 150px;
+}
+#slider{
+    position: relative;
+    top: 0;
+    height: 10000px;
+    background-color: var(--slider-color);
+}

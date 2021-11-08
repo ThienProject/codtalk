@@ -1,0 +1,34 @@
+/* common */
+
+:root{
+    --primary-color : #086ad8;
+    --slider-color: #0c328e;
+    --white-color : #fff;
+}
+*{
+    margin: 0;
+    box-sizing: inherit;
+}
+#wrapper{
+    scroll-behavior: smooth;
+}
+
+.clear{
+    clear: both;
+}
+html{
+    color: var(--white-color);
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    width : 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
