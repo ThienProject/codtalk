@@ -17,6 +17,7 @@
     clear: both;
 }
 html{
+    font-style: normal;
     color: var(--white-color);
     font-size: 62.5%;
     line-height: 1.6rem;
@@ -24,9 +25,14 @@ html{
     box-sizing: border-box;
 }
 .grid{
-    width : 1200px;
+    width : 1260px;
     max-width: 100%;
     margin: 0 auto;
+}
+.grid-flex--space-between{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 .grid__row{
     display: flex;
