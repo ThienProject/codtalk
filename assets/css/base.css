@@ -5,6 +5,14 @@
     --slider-color: #0c328e;
     --white-color : #fff;
 }
+@font-face {
+    font-family: cerebri-Bold;
+    src: url('../font/cerebri-sans-cufonfonts/Cerebri\ Sans\ Bold.ttf');
+  }
+  @font-face {
+    font-family: cerebri-book;
+    src: url('../font/cerebri-sans-cufonfonts/Cerebri\ Sans\ Book.ttf');
+  }
 *{
     margin: 0;
     box-sizing: inherit;
@@ -21,7 +29,9 @@ html{
     color: var(--white-color);
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: 'Roboto', sans-serif;
+    
+    font-family: "cerebri-Book" , sans-serif;
+    
     box-sizing: border-box;
 }
 .grid{
