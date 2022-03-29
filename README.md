@@ -1,3 +1,4 @@
 # codtalk
-Thien's Personal blog 
-link to review : codtalk.tk
++ Thien's Personal blog 
+
++ link to review : https://codtalk.tk/
